@@ -1,0 +1,2564 @@
+----------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\beatr\Desktop\PROGETTO\BooksByMails.log
+  log type:  text
+ opened on:  21 Mar 2022, 11:51:49
+
+. 
+. *************************
+
+. 
+. ** DESCRIZIONE DATASET **
+
+. 
+. *************************
+
+. 
+. 
+. 
+. *Vediamo se ci sono missing values:
+
+. 
+. 
+. 
+. codebook scelta
+
+----------------------------------------------------------------------------------------------------------------------------------------
+scelta                                                                                                                            scelta
+----------------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [1,3]                         Units: 1
+         Unique values: 3                         Missing .: 0/14,719
+
+            Tabulation: Freq.  Value
+                        5,882  1
+                          846  2
+                        7,991  3
+
+. 
+. codebook multi
+
+----------------------------------------------------------------------------------------------------------------------------------------
+multi                                                                                                                              multi
+----------------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/14,719
+
+            Tabulation: Freq.  Value
+                       12,188  0
+                        2,531  1
+
+. 
+. codebook emails
+
+----------------------------------------------------------------------------------------------------------------------------------------
+emails                                                                                                                            emails
+----------------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (double)
+
+                 Range: [.0721874,8.019269]           Units: 1.000e-07
+         Unique values: 2,066                     Missing .: 0/14,719
+
+                  Mean: .568854
+             Std. dev.: 1.39005
+
+           Percentiles:     10%       25%       50%       75%       90%
+                        .110217   .126884   .149118    .17321   .196612
+
+. 
+. codebook catalogs
+
+----------------------------------------------------------------------------------------------------------------------------------------
+catalogs                                                                                                                        catalogs
+----------------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (double)
+
+                 Range: [1.102285,11.93756]           Units: 1.000e-06
+         Unique values: 55                        Missing .: 0/14,719
+
+                  Mean:  1.7927
+             Std. dev.: .404366
+
+           Percentiles:     10%       25%       50%       75%       90%
+                        1.28127   1.60888   1.63299   2.09593   2.13959
+
+. 
+. codebook resi_euro
+
+----------------------------------------------------------------------------------------------------------------------------------------
+resi_euro                                                                                                                      resi_euro
+----------------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (double)
+
+                 Range: [0,104.4]                     Units: .01
+         Unique values: 216                       Missing .: 0/14,719
+
+                  Mean: .457617
+             Std. dev.: 3.57512
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         0         0         0
+
+. 
+. codebook qta
+
+----------------------------------------------------------------------------------------------------------------------------------------
+qta                                                                                                                                  qta
+----------------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (int)
+
+                 Range: [1,103]                       Units: 1
+         Unique values: 41                        Missing .: 0/14,719
+
+                  Mean: 2.84102
+             Std. dev.: 3.14184
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              1         1         2         4         6
+
+. 
+. codebook Mtot
+
+----------------------------------------------------------------------------------------------------------------------------------------
+Mtot                                                                                                                                Mtot
+----------------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,18]                        Units: 1
+         Unique values: 19                        Missing .: 0/14,719
+
+                  Mean: 5.97935
+             Std. dev.: 6.90706
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         1        13        17
+
+. 
+. codebook PVtot
+
+----------------------------------------------------------------------------------------------------------------------------------------
+PVtot                                                                                                                              PVtot
+----------------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,18]                        Units: 1
+         Unique values: 19                        Missing .: 0/14,719
+
+                  Mean: 8.44962
+             Std. dev.: 7.61988
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         9        16        18
+
+. 
+. codebook Itot
+
+----------------------------------------------------------------------------------------------------------------------------------------
+Itot                                                                                                                                Itot
+----------------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,18]                        Units: 1
+         Unique values: 18                        Missing .: 0/14,719
+
+                  Mean: .866703
+             Std. dev.: 2.79156
+
+           Percentiles:     10%       25%       50%       75%       90%
+                              0         0         0         0         2
+
+. 
+. codebook agenti
+
+----------------------------------------------------------------------------------------------------------------------------------------
+agenti                                                                                                                            agenti
+----------------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/14,719
+
+            Tabulation: Freq.  Value
+                          380  0
+                       14,339  1
+
+. 
+. codebook age
+
+----------------------------------------------------------------------------------------------------------------------------------------
+age                                                                                                                                  age
+----------------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [1,88]                        Units: 1
+         Unique values: 68                        Missing .: 0/14,719
+
+                  Mean:  43.357
+             Std. dev.: 15.4667
+
+           Percentiles:     10%       25%       50%       75%       90%
+                             25        32        41        53        66
+
+. 
+. codebook genere
+
+----------------------------------------------------------------------------------------------------------------------------------------
+genere                                                                                                                            genere
+----------------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [0,1]                         Units: 1
+         Unique values: 2                         Missing .: 0/14,719
+
+            Tabulation: Freq.  Value
+                        4,128  0
+                       10,591  1
+
+. 
+. codebook recency
+
+----------------------------------------------------------------------------------------------------------------------------------------
+recency                                                                                                                          recency
+----------------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (int)
+
+                 Range: [2,300]                       Units: 1
+         Unique values: 51                        Missing .: 0/14,719
+
+                  Mean: 126.482
+             Std. dev.: 81.0468
+
+           Percentiles:     10%       25%       50%       75%       90%
+                             12        28       118       214       224
+
+. 
+. codebook tot
+
+----------------------------------------------------------------------------------------------------------------------------------------
+tot                                                                                                                                  tot
+----------------------------------------------------------------------------------------------------------------------------------------
+
+                  Type: Numeric (byte)
+
+                 Range: [7,18]                        Units: 1
+         Unique values: 12                        Missing .: 0/14,719
+
+                  Mean: 15.2957
+             Std. dev.: 2.65092
+
+           Percentiles:     10%       25%       50%       75%       90%
+                             11        14        16        17        18
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Mettiamo le etichette alle modalità della nostra variabile dipendente "scelta", in modo tale da rendere più leggibili i risultati:
+
+. 
+. 
+. 
+. label define scelta_nome 1 "mobile" 2 "internet" 3 "ptovendita"
+
+. 
+. label value scelta scelta_nome
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Analizziamo la variabile dipendente:
+
+. 
+. 
+. 
+. tab scelta
+
+     scelta |      Freq.     Percent        Cum.
+------------+-----------------------------------
+     mobile |      5,882       39.96       39.96
+   internet |        846        5.75       45.71
+ ptovendita |      7,991       54.29      100.00
+------------+-----------------------------------
+      Total |     14,719      100.00
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Analizziamo nel particolare le variabili indipendenti che rappresentano il numero di volte che è stato acquistato utilizzando, rispet
+> tivamente, il canale telefonico, il canale internet e il punto vendita, nel periodo di osservazione:
+
+. 
+. 
+. 
+. sum Mtot, d
+
+                            Mtot
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%            0              0
+ 5%            0              0
+10%            0              0       Obs              14,719
+25%            0              0       Sum of wgt.      14,719
+
+50%            1                      Mean           5.979346
+                        Largest       Std. dev.      6.907055
+75%           13             18
+90%           17             18       Variance       47.70741
+95%           18             18       Skewness        .574809
+99%           18             18       Kurtosis       1.624163
+
+. 
+. sum Itot,d
+
+                            Itot
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%            0              0
+ 5%            0              0
+10%            0              0       Obs              14,719
+25%            0              0       Sum of wgt.      14,719
+
+50%            0                      Mean           .8667029
+                        Largest       Std. dev.      2.791559
+75%            0             18
+90%            2             18       Variance       7.792803
+95%            7             18       Skewness       3.769313
+99%           14             18       Kurtosis        17.2064
+
+. 
+. sum PVtot, d
+
+                            PVtot
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%            0              0
+ 5%            0              0
+10%            0              0       Obs              14,719
+25%            0              0       Sum of wgt.      14,719
+
+50%            9                      Mean           8.449623
+                        Largest       Std. dev.      7.619878
+75%           16             18
+90%           18             18       Variance       58.06254
+95%           18             18       Skewness       .0035367
+99%           18             18       Kurtosis       1.214962
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Analizziamo la variabile dummy che indica se il cliente è multicanale (1=sì, 0=no):
+
+. 
+. 
+. 
+. tab multi
+
+      multi |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     12,188       82.80       82.80
+          1 |      2,531       17.20      100.00
+------------+-----------------------------------
+      Total |     14,719      100.00
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Analizziamo la variabile dell'età:
+
+. 
+. 
+. 
+. sum age, d
+
+                             age
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%            1              1
+ 5%           25              1
+10%           25              1       Obs              14,719
+25%           32              1       Sum of wgt.      14,719
+
+50%           41                      Mean           43.35702
+                        Largest       Std. dev.      15.46673
+75%           53             88
+90%           66             88       Variance       239.2197
+95%           71             88       Skewness       .3828321
+99%           82             88       Kurtosis       3.125209
+
+. 
+. 
+. 
+. *Abbiamo riscontrato un problema: la variabile "age" parte da 1. Poiché è alquanto improbabile che individui di 1 anno possano aver ef
+> fettuato il fenomeno oggetto di studio (acquisto di libri attraverso un certo canale), li possiamo considerare come dati anomali. Per 
+> questo motivo, abbiamo deciso di modificarli inserendo la media dell'età (calcolata trasformando i valori 1 in 0) al posto di questi d
+> ati anomali, che sono 205 in totale:
+
+. 
+. 
+. 
+. replace age=0 if age==1
+(205 real changes made)
+
+. 
+. sum age 
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+         age |     14,719    43.34309    15.50527          0         88
+
+. 
+. 
+. 
+. *Essendo la media (calcolata trasformando i valori 1 in 0) pari a circa 43,34 modifichiamo i dati anomali (ora indicati con valore 0) 
+> con il valore 43:
+
+. 
+. 
+. 
+. replace age=43 if age==0
+(205 real changes made)
+
+. 
+. sum age 
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+         age |     14,719    43.94198    14.62497         21         88
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Analizziamo le altre variabili indipendenti:
+
+. 
+. 
+. 
+. tab genere
+
+     genere |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |      4,128       28.05       28.05
+          1 |     10,591       71.95      100.00
+------------+-----------------------------------
+      Total |     14,719      100.00
+
+. 
+. sum emails,d 
+
+                           emails
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%     .0866209       .0721874
+ 5%     .1010922       .0729738
+10%     .1102166       .0730321       Obs              14,719
+25%      .126884       .0730321       Sum of wgt.      14,719
+
+50%     .1491179                      Mean            .568854
+                        Largest       Std. dev.       1.39005
+75%     .1732101       8.019269
+90%     .1966123       8.019269       Variance       1.932238
+95%     4.858635       8.019269       Skewness       3.112107
+99%     5.884575       8.019269       Kurtosis       11.19902
+
+. 
+. sum catalogs,d
+
+                          catalogs
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%     1.102285       1.102285
+ 5%      1.11999       1.102285
+10%     1.281272       1.102285       Obs              14,719
+25%     1.608884       1.102285       Sum of wgt.      14,719
+
+50%     1.632986                      Mean             1.7927
+                        Largest       Std. dev.      .4043657
+75%     2.095931        4.84517
+90%     2.139585       5.351769       Variance       .1635117
+95%      2.60253       5.840663       Skewness       2.136002
+99%     3.109129       11.93756       Kurtosis       33.50119
+
+. 
+. tab agent
+
+     agenti |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |        380        2.58        2.58
+          1 |     14,339       97.42      100.00
+------------+-----------------------------------
+      Total |     14,719      100.00
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Abbiamo deciso di generare e analizzare una nuova variabile dummy che indica in quante e quali occasioni di acquisto sono stati effet
+> tuati dei resi (1=reso sì, 0=reso no):
+
+. 
+. 
+. 
+. gen reso=0
+
+. 
+. replace reso=1 if resi_euro!=0
+(335 real changes made)
+
+. 
+. tab reso
+
+       reso |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     14,384       97.72       97.72
+          1 |        335        2.28      100.00
+------------+-----------------------------------
+      Total |     14,719      100.00
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Analizziamo la variabile che indica il valore dei prodotti restituiti all'impresa (considerando solo le occasioni di acquisto in cui 
+> sono stati effettuati resi, che sono in totale 335 su 14719):
+
+. 
+. 
+. 
+. sum resi_euro if reso==1
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+   resi_euro |        335    20.10648    12.92182        .99      104.4
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. ***********************
+
+. 
+. ** MULTINOMIAL LOGIT **
+
+. 
+. ***********************
+
+. 
+. 
+. 
+. *Poiché la variabile dipendente ("scelta") è una variabile qualitativa multinomiale, scegliamo di utilizzare un modello multinomial lo
+> git. Tra le variabili indipendenti abbiamo deciso di inserire "reso" anziché "resi_euro", e di eliminare "tot" in quanto collineare co
+> n le tre variabili "Mtot", "PVtot", "Itot":
+
+. 
+. 
+. 
+. mlogit scelta multi emails catalogs reso qta recency Mtot PVtot Itot agenti age genere, base(3)
+
+Iteration 0:   log likelihood = -12692.801  
+Iteration 1:   log likelihood = -5420.6427  
+Iteration 2:   log likelihood = -4250.8408  
+Iteration 3:   log likelihood = -2774.6384  
+Iteration 4:   log likelihood = -2481.9822  
+Iteration 5:   log likelihood = -2392.3737  
+Iteration 6:   log likelihood = -2391.6144  
+Iteration 7:   log likelihood = -2391.6137  
+Iteration 8:   log likelihood = -2391.6137  
+
+Multinomial logistic regression                       Number of obs =   14,719
+                                                      LR chi2(24)   = 20602.38
+                                                      Prob > chi2   =   0.0000
+Log likelihood = -2391.6137                           Pseudo R2     =   0.8116
+
+------------------------------------------------------------------------------
+      scelta | Coefficient  Std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+mobile       |
+       multi |  -.0228083   .1130659    -0.20   0.840    -.2444134    .1987968
+      emails |   .0818243   .0397257     2.06   0.039     .0039635    .1596852
+    catalogs |  -.2338297   .1406876    -1.66   0.097    -.5095723     .041913
+        reso |   1.617352   .3485602     4.64   0.000     .9341863    2.300517
+         qta |  -.3480927   .0294951   -11.80   0.000    -.4059021   -.2902833
+     recency |   .0019193   .0006839     2.81   0.005     .0005788    .0032598
+        Mtot |   .3772453   .0212419    17.76   0.000     .3356119    .4188787
+       PVtot |  -.2656379   .0184924   -14.36   0.000    -.3018823   -.2293936
+        Itot |   .1076196   .0282798     3.81   0.000     .0521922     .163047
+      agenti |   .0594993   .2450169     0.24   0.808     -.420725    .5397235
+         age |   .0064777   .0036721     1.76   0.078    -.0007194    .0136748
+      genere |   .1977098   .1207071     1.64   0.101    -.0388718    .4342915
+       _cons |  -.1699413   .4647322    -0.37   0.715      -1.0808    .7409171
+-------------+----------------------------------------------------------------
+internet     |
+       multi |   .5888573   .1756164     3.35   0.001     .2446555    .9330592
+      emails |    .428563   .0426801    10.04   0.000     .3449114    .5122145
+    catalogs |   -.111469   .2034165    -0.55   0.584    -.5101582    .2872201
+        reso |    1.51272   .4679251     3.23   0.001     .5956037    2.429836
+         qta |  -.3021529   .0448932    -6.73   0.000    -.3901419   -.2141639
+     recency |  -.0029803   .0009554    -3.12   0.002    -.0048528   -.0011077
+        Mtot |   .1852061   .0303687     6.10   0.000     .1256845    .2447277
+       PVtot |  -.2806636   .0315347    -8.90   0.000    -.3424705   -.2188567
+        Itot |   .3471641   .0335346    10.35   0.000     .2814375    .4128907
+      agenti |   .9616231   .3587326     2.68   0.007     .2585202    1.664726
+         age |   .0095224   .0054671     1.74   0.082    -.0011929    .0202378
+      genere |   .2443035   .1623986     1.50   0.132     -.073992     .562599
+       _cons |  -3.132908    .699192    -4.48   0.000      -4.5033   -1.762517
+-------------+----------------------------------------------------------------
+ptovendita   |  (base outcome)
+------------------------------------------------------------------------------
+Note: 16 observations completely determined. Standard errors questionable.
+
+. 
+. 
+. 
+. *Come baseline abbiamo scelto il canale punto vendita, in quanto è la modalità più frequente (54.29%) rispetto ai canali mobile (39.96
+> %) e internet (5.75%). 
+
+. 
+. 
+. 
+. *scelta "mobile" vs "ptovendita" --> variabili non significative al 5%: multi, catalogs, agenti, age, genere
+
+. 
+. *scelta "internet" vs "ptovendita" --> variabili non significative al 5%: catalogs, age, genere
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *************************
+
+. 
+. ** LIFT CHART ANALYSIS **
+
+. 
+. *************************
+
+. 
+. 
+. 
+. *Per creare in-sample e out-sample, generiamo una nuova variabile che ci permette di dividere casualmente le osservazioni in 75% (per 
+> in-sample) e 25% (per out-sample):
+
+. 
+. 
+. 
+. gen random=uniform()
+
+. 
+. sum random,d
+
+                           random
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%     .0100661       .0001847
+ 5%     .0483101       .0002831
+10%     .0984582       .0003331       Obs              14,719
+25%     .2532234       .0003367       Sum of wgt.      14,719
+
+50%     .5048514                      Mean           .5026905
+                        Largest       Std. dev.       .289734
+75%     .7508851       .9997507
+90%     .9050739       .9997731       Variance       .0839458
+95%     .9514021       .9998331       Skewness      -.0118675
+99%     .9910277       .9999418       Kurtosis       1.804456
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Salviamo il 75 percentile, poi richiamiamo e visualizziamo il valore in output:
+
+. 
+. 
+. 
+. scalar cutoff=r(p75)
+
+. 
+. scalar list cutoff
+    cutoff =  .75088513
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *A questo punto, generiamo una nuova variabile e assegniamo valore 0 alle osservazioni appartenenti al campione di calibrazione e valo
+> re 1 alle osservazioni appartenenti al campione di validazione:
+
+. 
+. 
+. 
+. gen out_sample=0
+
+. 
+. replace out_sample=1 if random>cutoff
+(3,679 real changes made)
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Eliminiamo la variabile "random" che non ci serve più:
+
+. 
+. 
+. 
+. drop random
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Visualizziamo la tabella di frequenza di "out_sample" che ci permette di vedere quante osservazioni sono in in-sample e quante in out
+> -sample:
+
+. 
+. 
+. 
+. tab out_sample
+
+ out_sample |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |     11,040       75.01       75.01
+          1 |      3,679       24.99      100.00
+------------+-----------------------------------
+      Total |     14,719      100.00
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Stimiamo il modello sull'in-sample (campione di calibrazione):
+
+. 
+. 
+. 
+. mlogit scelta multi emails catalogs reso qta recency Mtot PVtot Itot agenti age genere if out_sample==0
+
+Iteration 0:   log likelihood = -9552.9816  
+Iteration 1:   log likelihood = -4104.4135  
+Iteration 2:   log likelihood = -3061.5589  
+Iteration 3:   log likelihood = -2032.2116  
+Iteration 4:   log likelihood = -1903.7968  
+Iteration 5:   log likelihood = -1865.3135  
+Iteration 6:   log likelihood =  -1864.858  
+Iteration 7:   log likelihood = -1864.8578  
+Iteration 8:   log likelihood = -1864.8578  
+
+Multinomial logistic regression                       Number of obs =   11,040
+                                                      LR chi2(24)   = 15376.25
+                                                      Prob > chi2   =   0.0000
+Log likelihood = -1864.8578                           Pseudo R2     =   0.8048
+
+------------------------------------------------------------------------------
+      scelta | Coefficient  Std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+mobile       |
+       multi |  -.0996247   .1276385    -0.78   0.435    -.3497916    .1505421
+      emails |   .0603686   .0447148     1.35   0.177    -.0272707    .1480079
+    catalogs |  -.2399696    .157386    -1.52   0.127    -.5484405    .0685013
+        reso |   1.487399   .3763411     3.95   0.000     .7497844    2.225014
+         qta |  -.3039365   .0329772    -9.22   0.000    -.3685706   -.2393023
+     recency |   .0025039   .0007759     3.23   0.001     .0009832    .0040246
+        Mtot |   .3694678   .0237289    15.57   0.000     .3229599    .4159756
+       PVtot |  -.2641756    .020759   -12.73   0.000    -.3048624   -.2234887
+        Itot |   .1002107   .0306426     3.27   0.001     .0401523    .1602692
+      agenti |  -.1383391   .2866153    -0.48   0.629    -.7000947    .4234165
+         age |   .0063816   .0041287     1.55   0.122    -.0017105    .0144738
+      genere |   .1471578   .1351794     1.09   0.276     -.117789    .4121046
+       _cons |  -.0512046   .5285684    -0.10   0.923     -1.08718    .9847704
+-------------+----------------------------------------------------------------
+internet     |
+       multi |    .501891    .196958     2.55   0.011     .1158603    .8879216
+      emails |   .4073618   .0476262     8.55   0.000     .3140162    .5007074
+    catalogs |   .0678018    .226653     0.30   0.765    -.3764298    .5120335
+        reso |   1.333568   .5128652     2.60   0.009     .3283705    2.338765
+         qta |   -.279633   .0497031    -5.63   0.000    -.3770493   -.1822168
+     recency |  -.0025439   .0010858    -2.34   0.019     -.004672   -.0004158
+        Mtot |   .1683044   .0339566     4.96   0.000     .1017507    .2348581
+       PVtot |  -.2976146   .0363041    -8.20   0.000    -.3687694   -.2264598
+        Itot |   .3238892   .0366415     8.84   0.000     .2520731    .3957053
+      agenti |   .4620785   .4177432     1.11   0.269    -.3566832     1.28084
+         age |   .0084882   .0061967     1.37   0.171    -.0036571    .0206335
+      genere |   .2490274   .1844173     1.35   0.177    -.1124239    .6104787
+       _cons |  -2.782653   .7878894    -3.53   0.000    -4.326888   -1.238418
+-------------+----------------------------------------------------------------
+ptovendita   |  (base outcome)
+------------------------------------------------------------------------------
+Note: 10 observations completely determined. Standard errors questionable.
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Generiamo tre variabili che rappresentano la predizione dei tre canali di scelta possibili per l'acquisto:
+
+. 
+. 
+. 
+. predict mobile_hat, outcome(1)
+(option pr assumed; predicted probability)
+
+. 
+. predict internet_hat, outcome(2)
+(option pr assumed; predicted probability)
+
+. 
+. predict ptovendita_hat, outcome(3)
+(option pr assumed; predicted probability)
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *********************************
+
+. 
+. ** LIFT CHART ANALYSIS: MOBILE **
+
+. 
+. *********************************
+
+. 
+. 
+. 
+. gen mobile=0
+
+. 
+. replace mobile=1 if  scelta==1
+(5,882 real changes made)
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Cominciamo con la lift chart in-sample.
+
+. 
+. *Dividiamo in decili i valori della variabile "mobile_hat" del campione di calibrazione:
+
+. 
+. 
+. 
+. xtile decileM_in=mobile_hat if out_sample==0, n(10)
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Controlliamo di aver creato bene i decili:
+
+. 
+. 
+. 
+. tabstat mobile_hat, by(decileM_in)
+
+Summary for variables: mobile_hat
+Group variable: decileM_in (10 quantiles of mobile_hat )
+
+decileM_in |      Mean
+-----------+----------
+         1 |  .0015124
+         2 |   .004461
+         3 |   .007389
+         4 |  .0121913
+         5 |  .0308582
+         6 |   .190595
+         7 |  .7899059
+         8 |   .972286
+         9 |  .9879254
+        10 |  .9938177
+-----------+----------
+     Total |  .3990942
+----------------------
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Invertiamo la tabella in modo da avere i valori medi più alti nei primi decili:
+
+. 
+. 
+. 
+. replace decileM_in=11-decileM_in if out_sample==0
+(11,040 real changes made)
+
+. 
+. tabstat mobile_hat, by(decileM_in)
+
+Summary for variables: mobile_hat
+Group variable: decileM_in (10 quantiles of mobile_hat )
+
+decileM_in |      Mean
+-----------+----------
+         1 |  .9938177
+         2 |  .9879254
+         3 |   .972286
+         4 |  .7899059
+         5 |   .190595
+         6 |  .0308582
+         7 |  .0121913
+         8 |   .007389
+         9 |   .004461
+        10 |  .0015124
+-----------+----------
+     Total |  .3990942
+----------------------
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Visualizziamo ora la tabella dei valori medi per decile riferita alla variabile "mobile" dei valori osservati e ne facciamo il grafic
+> o:
+
+. 
+. 
+. 
+. tabstat mobile, by(decileM_in)
+
+Summary for variables: mobile
+Group variable: decileM_in (10 quantiles of mobile_hat )
+
+decileM_in |      Mean
+-----------+----------
+         1 |  .9990942
+         2 |  .9882246
+         3 |  .9710145
+         4 |  .7563406
+         5 |  .2273551
+         6 |  .0335145
+         7 |  .0072464
+         8 |  .0027174
+         9 |  .0036232
+        10 |  .0018116
+-----------+----------
+     Total |  .3990942
+----------------------
+
+. 
+. graph bar mobile if out_sample==0, over(decileM_in)
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Eseguiamo lo stesso procedimento ma per l'out-sample (validazione):
+
+. 
+. 
+. 
+. xtile decileM_out=mobile_hat if out_sample==1, n(10)
+
+. 
+. tabstat mobile_hat, by(decileM_out)
+
+Summary for variables: mobile_hat
+Group variable: decileM_out (10 quantiles of mobile_hat )
+
+decileM_out |      Mean
+------------+----------
+          1 |  .0014964
+          2 |  .0044162
+          3 |  .0069894
+          4 |  .0113233
+          5 |   .027208
+          6 |  .1825024
+          7 |   .792573
+          8 |  .9734923
+          9 |  .9883463
+         10 |  .9938244
+------------+----------
+      Total |  .3980553
+-----------------------
+
+. 
+. replace decileM_out=11-decileM_out if out_sample==1
+(3,679 real changes made)
+
+. 
+. tabstat mobile_hat, by(decileM_out)
+
+Summary for variables: mobile_hat
+Group variable: decileM_out (10 quantiles of mobile_hat )
+
+decileM_out |      Mean
+------------+----------
+          1 |  .9938244
+          2 |  .9883463
+          3 |  .9734923
+          4 |   .792573
+          5 |  .1825024
+          6 |   .027208
+          7 |  .0113233
+          8 |  .0069894
+          9 |  .0044162
+         10 |  .0014964
+------------+----------
+      Total |  .3980553
+-----------------------
+
+. 
+. tabstat mobile, by(decileM_out)
+
+Summary for variables: mobile
+Group variable: decileM_out (10 quantiles of mobile_hat )
+
+decileM_out |      Mean
+------------+----------
+          1 |  .9972752
+          2 |         1
+          3 |  .9809783
+          4 |  .7717391
+          5 |   .236413
+          6 |  .0244565
+          7 |  .0027174
+          8 |         0
+          9 |         0
+         10 |         0
+------------+----------
+      Total |   .401196
+-----------------------
+
+. 
+. graph bar mobile if out_sample==1, over(decileM_out)
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. ***********************************
+
+. 
+. ** LIFT CHART ANALYSIS: INTERNET **
+
+. 
+. ***********************************
+
+. 
+. 
+. 
+. gen internet=0
+
+. 
+. replace internet=1 if scelta==2
+(846 real changes made)
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Cominciamo con la lift chart in-sample.
+
+. 
+. *Dividiamo in decili i valori della variabile "internet_hat" del campione di calibrazione:
+
+. 
+. 
+. 
+. xtile decileI_in=internet_hat if out_sample==0, n(10)
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Controlliamo di aver creato bene i decili:
+
+. 
+. 
+. 
+. tabstat internet_hat, by(decileI_in)
+
+Summary for variables: internet_hat
+Group variable: decileI_in (10 quantiles of internet_hat )
+
+decileI_in |      Mean
+-----------+----------
+         1 |  .0001546
+         2 |  .0003663
+         3 |  .0005717
+         4 |  .0009729
+         5 |  .0023326
+         6 |  .0043292
+         7 |  .0066352
+         8 |  .0107276
+         9 |  .0258408
+        10 |  .5368372
+-----------+----------
+     Total |  .0588768
+----------------------
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Invertiamo la tabella in modo da avere i valori medi più alti nei primi decili:
+
+. 
+. 
+. 
+. replace decileI_in=11-decileI_in if out_sample==0
+(11,040 real changes made)
+
+. 
+. tabstat internet_hat, by(decileI_in)
+
+Summary for variables: internet_hat
+Group variable: decileI_in (10 quantiles of internet_hat )
+
+decileI_in |      Mean
+-----------+----------
+         1 |  .5368372
+         2 |  .0258408
+         3 |  .0107276
+         4 |  .0066352
+         5 |  .0043292
+         6 |  .0023326
+         7 |  .0009729
+         8 |  .0005717
+         9 |  .0003663
+        10 |  .0001546
+-----------+----------
+     Total |  .0588768
+----------------------
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Visualizziamo ora la tabella dei valori medi per decile riferita alla variabile "internet" dei valori osservati e ne facciamo il graf
+> ico:
+
+. 
+. 
+. 
+. tabstat internet, by(decileI_in)
+
+Summary for variables: internet
+Group variable: decileI_in (10 quantiles of internet_hat )
+
+decileI_in |      Mean
+-----------+----------
+         1 |  .5461957
+         2 |  .0208333
+         3 |  .0117754
+         4 |  .0054348
+         5 |         0
+         6 |  .0027174
+         7 |  .0009058
+         8 |  .0009058
+         9 |         0
+        10 |         0
+-----------+----------
+     Total |  .0588768
+----------------------
+
+. 
+. graph bar internet if out_sample==0, over(decileI_in)
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Eseguiamo lo stesso procedimento ma per l'out-sample (validazione):
+
+. 
+. 
+. 
+. xtile decileI_out=internet_hat if out_sample==1, n(10)
+
+. 
+. tabstat internet_hat, by(decileI_out)
+
+Summary for variables: internet_hat
+Group variable: decileI_out (10 quantiles of internet_hat )
+
+decileI_out |      Mean
+------------+----------
+          1 |  .0001575
+          2 |  .0003709
+          3 |  .0005428
+          4 |  .0008763
+          5 |  .0021431
+          6 |  .0041165
+          7 |  .0062458
+          8 |  .0099864
+          9 |  .0209131
+         10 |  .4748375
+------------+----------
+      Total |  .0519035
+-----------------------
+
+. 
+. replace decileI_out=11-decileI_out if out_sample==1
+(3,679 real changes made)
+
+. 
+. tabstat internet_hat, by(decileI_out)
+
+Summary for variables: internet_hat
+Group variable: decileI_out (10 quantiles of internet_hat )
+
+decileI_out |      Mean
+------------+----------
+          1 |  .4748375
+          2 |  .0209131
+          3 |  .0099864
+          4 |  .0062458
+          5 |  .0041165
+          6 |  .0021431
+          7 |  .0008763
+          8 |  .0005428
+          9 |  .0003709
+         10 |  .0001575
+------------+----------
+      Total |  .0519035
+-----------------------
+
+. 
+. tabstat internet, by(decileI_out)
+
+Summary for variables: internet
+Group variable: decileI_out (10 quantiles of internet_hat )
+
+decileI_out |      Mean
+------------+----------
+          1 |  .5040872
+          2 |  .0190217
+          3 |  .0054348
+          4 |  .0054348
+          5 |         0
+          6 |         0
+          7 |         0
+          8 |         0
+          9 |         0
+         10 |         0
+------------+----------
+      Total |  .0532753
+-----------------------
+
+. 
+. graph bar internet if out_sample==1, over(decileI_out)
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. ****************************************
+
+. 
+. ** LIFT CHART ANALYSIS: PUNTO VENDITA **
+
+. 
+. ****************************************
+
+. 
+. 
+. 
+. gen ptovendita=0
+
+. 
+. replace ptovendita=1 if scelta==3
+(7,991 real changes made)
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Cominciamo con la lift chart in-sample.
+
+. 
+. *Dividiamo in decili i valori della variabile "ptovendita_hat" del campione di calibrazione:
+
+. 
+. 
+. 
+. xtile decileP_in=ptovendita_hat if out_sample==0, n(10)
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Controlliamo di aver creato bene i decili:
+
+. 
+. 
+. 
+. tabstat ptovendita_hat, by(decileP_in)
+
+Summary for variables: ptovendita_hat
+Group variable: decileP_in (10 quantiles of ptovendita_hat )
+
+decileP_in |      Mean
+-----------+----------
+         1 |  .0021135
+         2 |  .0046341
+         3 |  .0103799
+         4 |  .0313595
+         5 |  .4386117
+         6 |  .9610397
+         7 |  .9867704
+         8 |    .99198
+         9 |  .9950999
+        10 |  .9983012
+-----------+----------
+     Total |   .542029
+----------------------
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Invertiamo la tabella in modo da avere i valori medi più alti nei primi decili:
+
+. 
+. 
+. 
+. replace decileP_in=11-decileP_in if out_sample==0
+(11,040 real changes made)
+
+. 
+. tabstat ptovendita_hat, by(decileP_in)
+
+Summary for variables: ptovendita_hat
+Group variable: decileP_in (10 quantiles of ptovendita_hat )
+
+decileP_in |      Mean
+-----------+----------
+         1 |  .9983012
+         2 |  .9950999
+         3 |    .99198
+         4 |  .9867704
+         5 |  .9610397
+         6 |  .4386117
+         7 |  .0313595
+         8 |  .0103799
+         9 |  .0046341
+        10 |  .0021135
+-----------+----------
+     Total |   .542029
+----------------------
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Visualizziamo ora la tabella dei valori medi per decile riferita alla variabile "ptovendita" dei valori osservati e ne facciamo il gr
+> afico:
+
+. 
+. 
+. 
+. tabstat ptovendita, by(decileP_in)
+
+Summary for variables: ptovendita
+Group variable: decileP_in (10 quantiles of ptovendita_hat )
+
+decileP_in |      Mean
+-----------+----------
+         1 |  .9981884
+         2 |  .9972826
+         3 |  .9963768
+         4 |  .9891304
+         5 |  .9610507
+         6 |   .442029
+         7 |  .0253623
+         8 |  .0063406
+         9 |   .004529
+        10 |         0
+-----------+----------
+     Total |   .542029
+----------------------
+
+. 
+. graph bar ptovendita if out_sample==0, over(decileP_in)
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Eseguiamo lo stesso procedimento ma per l'out-sample (validazione):
+
+. 
+. 
+. 
+. xtile decileP_out=ptovendita_hat if out_sample==1, n(10)
+
+. 
+. tabstat ptovendita_hat, by(decileP_out)
+
+Summary for variables: ptovendita_hat
+Group variable: decileP_out (10 quantiles of ptovendita_hat )
+
+decileP_out |      Mean
+------------+----------
+          1 |  .0021466
+          2 |  .0045902
+          3 |  .0101996
+          4 |  .0321672
+          5 |  .5109216
+          6 |  .9679548
+          7 |  .9877606
+          8 |  .9924255
+          9 |  .9951406
+         10 |  .9983236
+------------+----------
+      Total |  .5500412
+-----------------------
+
+. 
+. replace decileP_out=11-decileP_out if out_sample==1
+(3,679 real changes made)
+
+. 
+. tabstat ptovendita_hat, by(decileP_out)
+
+Summary for variables: ptovendita_hat
+Group variable: decileP_out (10 quantiles of ptovendita_hat )
+
+decileP_out |      Mean
+------------+----------
+          1 |  .9983236
+          2 |  .9951406
+          3 |  .9924255
+          4 |  .9877606
+          5 |  .9679548
+          6 |  .5109216
+          7 |  .0321672
+          8 |  .0101996
+          9 |  .0045902
+         10 |  .0021466
+------------+----------
+      Total |  .5500412
+-----------------------
+
+. 
+. tabstat ptovendita, by(decileP_out)
+
+Summary for variables: ptovendita
+Group variable: decileP_out (10 quantiles of ptovendita_hat )
+
+decileP_out |      Mean
+------------+----------
+          1 |         1
+          2 |         1
+          3 |         1
+          4 |  .9972826
+          5 |  .9673913
+          6 |  .4701087
+          7 |  .0108696
+          8 |  .0108696
+          9 |         0
+         10 |         0
+------------+----------
+      Total |  .5455287
+-----------------------
+
+. 
+. graph bar ptovendita if out_sample==1, over(decileP_out)
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *********************************************************
+
+. 
+. ** INTERPRETAZIONE DEL MODELLO con RELATIVE RISK RATIO **
+
+. 
+. *********************************************************
+
+. 
+. 
+. 
+. mlogit scelta multi emails catalogs reso qta recency Mtot PVtot Itot agenti age genere, base(3) rrr
+
+Iteration 0:   log likelihood = -12692.801  
+Iteration 1:   log likelihood = -5420.6427  
+Iteration 2:   log likelihood = -4250.8408  
+Iteration 3:   log likelihood = -2774.6384  
+Iteration 4:   log likelihood = -2481.9822  
+Iteration 5:   log likelihood = -2392.3737  
+Iteration 6:   log likelihood = -2391.6144  
+Iteration 7:   log likelihood = -2391.6137  
+Iteration 8:   log likelihood = -2391.6137  
+
+Multinomial logistic regression                       Number of obs =   14,719
+                                                      LR chi2(24)   = 20602.38
+                                                      Prob > chi2   =   0.0000
+Log likelihood = -2391.6137                           Pseudo R2     =   0.8116
+
+------------------------------------------------------------------------------
+      scelta |        RRR   Std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+mobile       |
+       multi |   .9774498   .1105162    -0.20   0.840     .7831638    1.219934
+      emails |   1.085265   .0431129     2.06   0.039     1.003971    1.173142
+    catalogs |   .7914966   .1113538    -1.66   0.097     .6007525    1.042804
+        reso |   5.039726   1.756648     4.64   0.000     2.545142    9.979342
+         qta |   .7060334   .0208246   -11.80   0.000     .6663754    .7480516
+     recency |   1.001921   .0006853     2.81   0.005     1.000579    1.003265
+        Mtot |   1.458262   .0309763    17.76   0.000     1.398796    1.520256
+       PVtot |   .7667167   .0141784   -14.36   0.000     .7394251    .7950156
+        Itot |   1.113624   .0314931     3.81   0.000     1.053578    1.177092
+      agenti |   1.061305   .2600376     0.24   0.808     .6565706    1.715532
+         age |   1.006499   .0036959     1.76   0.078     .9992808    1.013769
+      genere |   1.218609   .1470948     1.64   0.101      .961874    1.543869
+       _cons |   .8437144   .3921012    -0.37   0.715     .3393241    2.097859
+-------------+----------------------------------------------------------------
+internet     |
+       multi |   1.801928   .3164482     3.35   0.001     1.277181    2.542275
+      emails |    1.53505   .0655162    10.04   0.000     1.411865    1.668983
+    catalogs |   .8945191     .18196    -0.55   0.584     .6004006    1.332717
+        reso |   4.539061    2.12394     3.23   0.001     1.814126    11.35702
+         qta |   .7392251   .0331862    -6.73   0.000     .6769608    .8072161
+     recency |   .9970242   .0009526    -3.12   0.002     .9951589    .9988929
+        Mtot |   1.203466   .0365477     6.10   0.000     1.133924    1.277273
+       PVtot |   .7552824   .0238176    -8.90   0.000      .710014    .8034369
+        Itot |   1.415049   .0474531    10.35   0.000     1.325033     1.51118
+      agenti |   2.615939   .9384225     2.68   0.007     1.295012    5.284225
+         age |   1.009568   .0055194     1.74   0.082     .9988078    1.020444
+      genere |   1.276732   .2073395     1.50   0.132     .9286791    1.755228
+       _cons |   .0435908   .0304784    -4.48   0.000     .0110724    .1716123
+-------------+----------------------------------------------------------------
+ptovendita   |  (base outcome)
+------------------------------------------------------------------------------
+Note: _cons estimates baseline relative risk for each outcome.
+Note: 16 observations completely determined. Standard errors questionable.
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *****************************
+
+. 
+. ** TEST PER CONDIZIONE IIA **
+
+. 
+. *****************************
+
+. 
+. 
+. 
+. mlogit scelta multi emails catalogs reso qta recency Mtot PVtot Itot agenti age genere, base(3)
+
+Iteration 0:   log likelihood = -12692.801  
+Iteration 1:   log likelihood = -5420.6427  
+Iteration 2:   log likelihood = -4250.8408  
+Iteration 3:   log likelihood = -2774.6384  
+Iteration 4:   log likelihood = -2481.9822  
+Iteration 5:   log likelihood = -2392.3737  
+Iteration 6:   log likelihood = -2391.6144  
+Iteration 7:   log likelihood = -2391.6137  
+Iteration 8:   log likelihood = -2391.6137  
+
+Multinomial logistic regression                       Number of obs =   14,719
+                                                      LR chi2(24)   = 20602.38
+                                                      Prob > chi2   =   0.0000
+Log likelihood = -2391.6137                           Pseudo R2     =   0.8116
+
+------------------------------------------------------------------------------
+      scelta | Coefficient  Std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+mobile       |
+       multi |  -.0228083   .1130659    -0.20   0.840    -.2444134    .1987968
+      emails |   .0818243   .0397257     2.06   0.039     .0039635    .1596852
+    catalogs |  -.2338297   .1406876    -1.66   0.097    -.5095723     .041913
+        reso |   1.617352   .3485602     4.64   0.000     .9341863    2.300517
+         qta |  -.3480927   .0294951   -11.80   0.000    -.4059021   -.2902833
+     recency |   .0019193   .0006839     2.81   0.005     .0005788    .0032598
+        Mtot |   .3772453   .0212419    17.76   0.000     .3356119    .4188787
+       PVtot |  -.2656379   .0184924   -14.36   0.000    -.3018823   -.2293936
+        Itot |   .1076196   .0282798     3.81   0.000     .0521922     .163047
+      agenti |   .0594993   .2450169     0.24   0.808     -.420725    .5397235
+         age |   .0064777   .0036721     1.76   0.078    -.0007194    .0136748
+      genere |   .1977098   .1207071     1.64   0.101    -.0388718    .4342915
+       _cons |  -.1699413   .4647322    -0.37   0.715      -1.0808    .7409171
+-------------+----------------------------------------------------------------
+internet     |
+       multi |   .5888573   .1756164     3.35   0.001     .2446555    .9330592
+      emails |    .428563   .0426801    10.04   0.000     .3449114    .5122145
+    catalogs |   -.111469   .2034165    -0.55   0.584    -.5101582    .2872201
+        reso |    1.51272   .4679251     3.23   0.001     .5956037    2.429836
+         qta |  -.3021529   .0448932    -6.73   0.000    -.3901419   -.2141639
+     recency |  -.0029803   .0009554    -3.12   0.002    -.0048528   -.0011077
+        Mtot |   .1852061   .0303687     6.10   0.000     .1256845    .2447277
+       PVtot |  -.2806636   .0315347    -8.90   0.000    -.3424705   -.2188567
+        Itot |   .3471641   .0335346    10.35   0.000     .2814375    .4128907
+      agenti |   .9616231   .3587326     2.68   0.007     .2585202    1.664726
+         age |   .0095224   .0054671     1.74   0.082    -.0011929    .0202378
+      genere |   .2443035   .1623986     1.50   0.132     -.073992     .562599
+       _cons |  -3.132908    .699192    -4.48   0.000      -4.5033   -1.762517
+-------------+----------------------------------------------------------------
+ptovendita   |  (base outcome)
+------------------------------------------------------------------------------
+Note: 16 observations completely determined. Standard errors questionable.
+
+. 
+. est store all
+
+. 
+. 
+. 
+. mlogit scelta multi emails catalogs reso qta recency Mtot PVtot Itot agenti age genere if scelta!=1
+
+Iteration 0:   log likelihood = -2789.0178  
+Iteration 1:   log likelihood = -831.87143  
+Iteration 2:   log likelihood = -531.11587  
+Iteration 3:   log likelihood = -353.70899  
+Iteration 4:   log likelihood = -336.73525  
+Iteration 5:   log likelihood = -335.11147  
+Iteration 6:   log likelihood = -335.10967  
+Iteration 7:   log likelihood = -335.10967  
+
+Multinomial logistic regression                        Number of obs =   8,837
+                                                       LR chi2(12)   = 4907.82
+                                                       Prob > chi2   =  0.0000
+Log likelihood = -335.10967                            Pseudo R2     =  0.8798
+
+------------------------------------------------------------------------------
+      scelta | Coefficient  Std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+internet     |
+       multi |  -.3552835   .2905879    -1.22   0.221    -.9248254    .2142584
+      emails |   .4920224   .0495057     9.94   0.000     .3949931    .5890517
+    catalogs |   .1728221   .2905674     0.59   0.552    -.3966795    .7423237
+        reso |   1.295346    .643228     2.01   0.044     .0346426     2.55605
+         qta |  -.3602556   .0667138    -5.40   0.000    -.4910121    -.229499
+     recency |  -.0008316   .0014211    -0.59   0.558    -.0036169    .0019536
+        Mtot |    .076857   .0404789     1.90   0.058    -.0024803    .1561942
+       PVtot |  -.4004727   .0470564    -8.51   0.000    -.4927016   -.3082439
+        Itot |   .3670135   .0464314     7.90   0.000     .2760097    .4580173
+      agenti |   .2456935   .4884767     0.50   0.615    -.7117032     1.20309
+         age |   .0037614   .0075906     0.50   0.620    -.0111159    .0186386
+      genere |  -.1434852   .2276787    -0.63   0.529    -.5897273    .3027568
+       _cons |  -.9784271   1.036942    -0.94   0.345    -3.010796    1.053942
+-------------+----------------------------------------------------------------
+ptovendita   |  (base outcome)
+------------------------------------------------------------------------------
+Note: 43 observations completely determined. Standard errors questionable.
+
+. 
+. est store partial
+
+. 
+. 
+. 
+. hausman partial all, alleqs constant
+
+                 ---- Coefficients ----
+             |      (b)          (B)            (b-B)     sqrt(diag(V_b-V_B))
+             |    partial        all         Difference       Std. err.
+-------------+----------------------------------------------------------------
+       multi |   -.3552835     .5888573       -.9441409        .2315172
+      emails |    .4920224      .428563        .0634595        .0250842
+    catalogs |    .1728221     -.111469        .2842912        .2074876
+        reso |    1.295346      1.51272       -.2173737        .4413484
+         qta |   -.3602556    -.3021529       -.0581027         .049349
+     recency |   -.0008316    -.0029803        .0021486         .001052
+        Mtot |     .076857     .1852061       -.1083491        .0267635
+       PVtot |   -.4004727    -.2806636       -.1198091        .0349266
+        Itot |    .3670135     .3471641        .0198494        .0321139
+      agenti |    .2456935     .9616231       -.7159296        .3315424
+         age |    .0037614     .0095224        -.005761        .0052657
+      genere |   -.1434852     .2443035       -.3877887        .1595753
+       _cons |   -.9784271    -3.132908        2.154481        .7657542
+------------------------------------------------------------------------------
+                         b = Consistent under H0 and Ha; obtained from mlogit.
+          B = Inconsistent under Ha, efficient under H0; obtained from mlogit.
+
+Test of H0: Difference in coefficients not systematic
+
+   chi2(13) = (b-B)'[(V_b-V_B)^(-1)](b-B)
+            =  61.33
+Prob > chi2 = 0.0000
+
+. 
+. 
+. 
+. *Il p-value è minore di 0.05: si rifiuta l'ipotesi nulla. Dunque si riscontrano differenze sistematiche nei coefficienti: l'esclusione
+>  di una delle scelte (in questo caso l'esclusione di "mobile") viola la condizione IIA.
+
+. 
+. *Pertanto, poiché la condizione non è verificata, è meglio fare il multinomial probit anziché il multinomial logit.
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. ******************************************************
+
+. 
+. ** VERIFICA DELLA CORRELAZIONE TRA MLOGIT E MPROBIT **
+
+. 
+. ******************************************************
+
+. 
+. 
+. 
+. *Verifichiamo se le stime di mlogit e mprobit sono correlate per la modalità "mobile":
+
+. 
+. 
+. 
+. mlogit scelta multi emails catalogs reso qta recency Mtot PVtot Itot agenti age genere
+
+Iteration 0:   log likelihood = -12692.801  
+Iteration 1:   log likelihood = -5420.6427  
+Iteration 2:   log likelihood = -4250.8408  
+Iteration 3:   log likelihood = -2774.6384  
+Iteration 4:   log likelihood = -2481.9822  
+Iteration 5:   log likelihood = -2392.3737  
+Iteration 6:   log likelihood = -2391.6144  
+Iteration 7:   log likelihood = -2391.6137  
+Iteration 8:   log likelihood = -2391.6137  
+
+Multinomial logistic regression                       Number of obs =   14,719
+                                                      LR chi2(24)   = 20602.38
+                                                      Prob > chi2   =   0.0000
+Log likelihood = -2391.6137                           Pseudo R2     =   0.8116
+
+------------------------------------------------------------------------------
+      scelta | Coefficient  Std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+mobile       |
+       multi |  -.0228083   .1130659    -0.20   0.840    -.2444134    .1987968
+      emails |   .0818243   .0397257     2.06   0.039     .0039635    .1596852
+    catalogs |  -.2338297   .1406876    -1.66   0.097    -.5095723     .041913
+        reso |   1.617352   .3485602     4.64   0.000     .9341863    2.300517
+         qta |  -.3480927   .0294951   -11.80   0.000    -.4059021   -.2902833
+     recency |   .0019193   .0006839     2.81   0.005     .0005788    .0032598
+        Mtot |   .3772453   .0212419    17.76   0.000     .3356119    .4188787
+       PVtot |  -.2656379   .0184924   -14.36   0.000    -.3018823   -.2293936
+        Itot |   .1076196   .0282798     3.81   0.000     .0521922     .163047
+      agenti |   .0594993   .2450169     0.24   0.808     -.420725    .5397235
+         age |   .0064777   .0036721     1.76   0.078    -.0007194    .0136748
+      genere |   .1977098   .1207071     1.64   0.101    -.0388718    .4342915
+       _cons |  -.1699413   .4647322    -0.37   0.715      -1.0808    .7409171
+-------------+----------------------------------------------------------------
+internet     |
+       multi |   .5888573   .1756164     3.35   0.001     .2446555    .9330592
+      emails |    .428563   .0426801    10.04   0.000     .3449114    .5122145
+    catalogs |   -.111469   .2034165    -0.55   0.584    -.5101582    .2872201
+        reso |    1.51272   .4679251     3.23   0.001     .5956037    2.429836
+         qta |  -.3021529   .0448932    -6.73   0.000    -.3901419   -.2141639
+     recency |  -.0029803   .0009554    -3.12   0.002    -.0048528   -.0011077
+        Mtot |   .1852061   .0303687     6.10   0.000     .1256845    .2447277
+       PVtot |  -.2806636   .0315347    -8.90   0.000    -.3424705   -.2188567
+        Itot |   .3471641   .0335346    10.35   0.000     .2814375    .4128907
+      agenti |   .9616231   .3587326     2.68   0.007     .2585202    1.664726
+         age |   .0095224   .0054671     1.74   0.082    -.0011929    .0202378
+      genere |   .2443035   .1623986     1.50   0.132     -.073992     .562599
+       _cons |  -3.132908    .699192    -4.48   0.000      -4.5033   -1.762517
+-------------+----------------------------------------------------------------
+ptovendita   |  (base outcome)
+------------------------------------------------------------------------------
+Note: 16 observations completely determined. Standard errors questionable.
+
+. 
+. predict pr_mlogit1, outcome(1)
+(option pr assumed; predicted probability)
+
+. 
+. 
+. 
+. mprobit scelta multi emails catalogs reso qta recency Mtot PVtot Itot agenti age genere
+
+Iteration 0:   log likelihood = -2383.0804  
+Iteration 1:   log likelihood = -2361.1559  
+Iteration 2:   log likelihood = -2358.0791  
+Iteration 3:   log likelihood = -2358.0607  
+Iteration 4:   log likelihood = -2358.0607  
+
+Multinomial probit regression                          Number of obs =  14,719
+                                                       Wald chi2(24) = 5835.49
+Log likelihood = -2358.0607                            Prob > chi2   =  0.0000
+
+------------------------------------------------------------------------------
+      scelta | Coefficient  Std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+mobile       |
+       multi |  -.0249045   .0762116    -0.33   0.744    -.1742765    .1244675
+      emails |   .0487728   .0272715     1.79   0.074    -.0046783    .1022239
+    catalogs |  -.1484873   .0956964    -1.55   0.121    -.3360487    .0390741
+        reso |    1.06551   .2332775     4.57   0.000     .6082948    1.522726
+         qta |  -.2209947   .0201822   -10.95   0.000    -.2605511   -.1814383
+     recency |   .0013371   .0004608     2.90   0.004      .000434    .0022402
+        Mtot |    .272933   .0142444    19.16   0.000     .2450145    .3008515
+       PVtot |  -.1987083   .0126147   -15.75   0.000    -.2234327   -.1739838
+        Itot |    .069892     .01899     3.68   0.000     .0326722    .1071118
+      agenti |   .0152495   .1767996     0.09   0.931    -.3312715    .3617704
+         age |    .004211   .0025009     1.68   0.092    -.0006907    .0091128
+      genere |   .1046953   .0813129     1.29   0.198    -.0546751    .2640658
+       _cons |  -.1187335   .3218353    -0.37   0.712    -.7495191     .512052
+-------------+----------------------------------------------------------------
+internet     |
+       multi |   .2176838   .1122183     1.94   0.052    -.0022599    .4376276
+      emails |   .2837353   .0281654    10.07   0.000     .2285321    .3389384
+    catalogs |   -.013803   .1342555    -0.10   0.918    -.2769389    .2493328
+        reso |   .9393753   .3017737     3.11   0.002     .3479097    1.530841
+         qta |  -.1967947   .0304633    -6.46   0.000    -.2565018   -.1370877
+     recency |  -.0018857   .0006338    -2.98   0.003    -.0031279   -.0006435
+        Mtot |   .1319176   .0197324     6.69   0.000     .0932428    .1705924
+       PVtot |  -.1753006   .0202439    -8.66   0.000    -.2149779   -.1356233
+        Itot |   .2670725   .0223234    11.96   0.000     .2233194    .3108256
+      agenti |   .5930386    .245375     2.42   0.016     .1121125    1.073965
+         age |   .0047101   .0036122     1.30   0.192    -.0023697    .0117898
+      genere |   .1233711    .107738     1.15   0.252    -.0877914    .3345337
+       _cons |  -2.150214     .46458    -4.63   0.000    -3.060774   -1.239654
+-------------+----------------------------------------------------------------
+ptovendita   |  (base outcome)
+------------------------------------------------------------------------------
+
+. 
+. predict pr_mprobit1, outcome(1)
+(option pr assumed; predicted probabilities)
+
+. 
+. 
+. 
+. corr pr_mlogit1 pr_mprobit1
+(obs=14,719)
+
+             | pr_mlo~1 pr_mpr~1
+-------------+------------------
+  pr_mlogit1 |   1.0000
+ pr_mprobit1 |   0.9996   1.0000
+
+
+. 
+. scatter pr_mlogit1 pr_mprobit1
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Verifichiamo se le stime di mlogit e mprobit sono correlate per la modalità "internet":
+
+. 
+. 
+. 
+. mlogit scelta multi emails catalogs reso qta recency Mtot PVtot Itot agenti age genere
+
+Iteration 0:   log likelihood = -12692.801  
+Iteration 1:   log likelihood = -5420.6427  
+Iteration 2:   log likelihood = -4250.8408  
+Iteration 3:   log likelihood = -2774.6384  
+Iteration 4:   log likelihood = -2481.9822  
+Iteration 5:   log likelihood = -2392.3737  
+Iteration 6:   log likelihood = -2391.6144  
+Iteration 7:   log likelihood = -2391.6137  
+Iteration 8:   log likelihood = -2391.6137  
+
+Multinomial logistic regression                       Number of obs =   14,719
+                                                      LR chi2(24)   = 20602.38
+                                                      Prob > chi2   =   0.0000
+Log likelihood = -2391.6137                           Pseudo R2     =   0.8116
+
+------------------------------------------------------------------------------
+      scelta | Coefficient  Std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+mobile       |
+       multi |  -.0228083   .1130659    -0.20   0.840    -.2444134    .1987968
+      emails |   .0818243   .0397257     2.06   0.039     .0039635    .1596852
+    catalogs |  -.2338297   .1406876    -1.66   0.097    -.5095723     .041913
+        reso |   1.617352   .3485602     4.64   0.000     .9341863    2.300517
+         qta |  -.3480927   .0294951   -11.80   0.000    -.4059021   -.2902833
+     recency |   .0019193   .0006839     2.81   0.005     .0005788    .0032598
+        Mtot |   .3772453   .0212419    17.76   0.000     .3356119    .4188787
+       PVtot |  -.2656379   .0184924   -14.36   0.000    -.3018823   -.2293936
+        Itot |   .1076196   .0282798     3.81   0.000     .0521922     .163047
+      agenti |   .0594993   .2450169     0.24   0.808     -.420725    .5397235
+         age |   .0064777   .0036721     1.76   0.078    -.0007194    .0136748
+      genere |   .1977098   .1207071     1.64   0.101    -.0388718    .4342915
+       _cons |  -.1699413   .4647322    -0.37   0.715      -1.0808    .7409171
+-------------+----------------------------------------------------------------
+internet     |
+       multi |   .5888573   .1756164     3.35   0.001     .2446555    .9330592
+      emails |    .428563   .0426801    10.04   0.000     .3449114    .5122145
+    catalogs |   -.111469   .2034165    -0.55   0.584    -.5101582    .2872201
+        reso |    1.51272   .4679251     3.23   0.001     .5956037    2.429836
+         qta |  -.3021529   .0448932    -6.73   0.000    -.3901419   -.2141639
+     recency |  -.0029803   .0009554    -3.12   0.002    -.0048528   -.0011077
+        Mtot |   .1852061   .0303687     6.10   0.000     .1256845    .2447277
+       PVtot |  -.2806636   .0315347    -8.90   0.000    -.3424705   -.2188567
+        Itot |   .3471641   .0335346    10.35   0.000     .2814375    .4128907
+      agenti |   .9616231   .3587326     2.68   0.007     .2585202    1.664726
+         age |   .0095224   .0054671     1.74   0.082    -.0011929    .0202378
+      genere |   .2443035   .1623986     1.50   0.132     -.073992     .562599
+       _cons |  -3.132908    .699192    -4.48   0.000      -4.5033   -1.762517
+-------------+----------------------------------------------------------------
+ptovendita   |  (base outcome)
+------------------------------------------------------------------------------
+Note: 16 observations completely determined. Standard errors questionable.
+
+. 
+. predict pr_mlogit2, outcome(2)
+(option pr assumed; predicted probability)
+
+. 
+. 
+. 
+. mprobit scelta multi emails catalogs reso qta recency Mtot PVtot Itot agenti age genere
+
+Iteration 0:   log likelihood = -2383.0804  
+Iteration 1:   log likelihood = -2361.1559  
+Iteration 2:   log likelihood = -2358.0791  
+Iteration 3:   log likelihood = -2358.0607  
+Iteration 4:   log likelihood = -2358.0607  
+
+Multinomial probit regression                          Number of obs =  14,719
+                                                       Wald chi2(24) = 5835.49
+Log likelihood = -2358.0607                            Prob > chi2   =  0.0000
+
+------------------------------------------------------------------------------
+      scelta | Coefficient  Std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+mobile       |
+       multi |  -.0249045   .0762116    -0.33   0.744    -.1742765    .1244675
+      emails |   .0487728   .0272715     1.79   0.074    -.0046783    .1022239
+    catalogs |  -.1484873   .0956964    -1.55   0.121    -.3360487    .0390741
+        reso |    1.06551   .2332775     4.57   0.000     .6082948    1.522726
+         qta |  -.2209947   .0201822   -10.95   0.000    -.2605511   -.1814383
+     recency |   .0013371   .0004608     2.90   0.004      .000434    .0022402
+        Mtot |    .272933   .0142444    19.16   0.000     .2450145    .3008515
+       PVtot |  -.1987083   .0126147   -15.75   0.000    -.2234327   -.1739838
+        Itot |    .069892     .01899     3.68   0.000     .0326722    .1071118
+      agenti |   .0152495   .1767996     0.09   0.931    -.3312715    .3617704
+         age |    .004211   .0025009     1.68   0.092    -.0006907    .0091128
+      genere |   .1046953   .0813129     1.29   0.198    -.0546751    .2640658
+       _cons |  -.1187335   .3218353    -0.37   0.712    -.7495191     .512052
+-------------+----------------------------------------------------------------
+internet     |
+       multi |   .2176838   .1122183     1.94   0.052    -.0022599    .4376276
+      emails |   .2837353   .0281654    10.07   0.000     .2285321    .3389384
+    catalogs |   -.013803   .1342555    -0.10   0.918    -.2769389    .2493328
+        reso |   .9393753   .3017737     3.11   0.002     .3479097    1.530841
+         qta |  -.1967947   .0304633    -6.46   0.000    -.2565018   -.1370877
+     recency |  -.0018857   .0006338    -2.98   0.003    -.0031279   -.0006435
+        Mtot |   .1319176   .0197324     6.69   0.000     .0932428    .1705924
+       PVtot |  -.1753006   .0202439    -8.66   0.000    -.2149779   -.1356233
+        Itot |   .2670725   .0223234    11.96   0.000     .2233194    .3108256
+      agenti |   .5930386    .245375     2.42   0.016     .1121125    1.073965
+         age |   .0047101   .0036122     1.30   0.192    -.0023697    .0117898
+      genere |   .1233711    .107738     1.15   0.252    -.0877914    .3345337
+       _cons |  -2.150214     .46458    -4.63   0.000    -3.060774   -1.239654
+-------------+----------------------------------------------------------------
+ptovendita   |  (base outcome)
+------------------------------------------------------------------------------
+
+. 
+. predict pr_mprobit2, outcome(2)
+(option pr assumed; predicted probabilities)
+
+. 
+. 
+. 
+. corr pr_mlogit2 pr_mprobit2
+(obs=14,719)
+
+             | pr_mlo~2 pr_mpr~2
+-------------+------------------
+  pr_mlogit2 |   1.0000
+ pr_mprobit2 |   0.9989   1.0000
+
+
+. 
+. scatter pr_mlogit2 pr_mprobit2
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Verifichiamo se le stime di mlogit e mprobit sono correlate per la modalità "punto vendita":
+
+. 
+. 
+. 
+. mlogit scelta multi emails catalogs reso qta recency Mtot PVtot Itot agenti age genere
+
+Iteration 0:   log likelihood = -12692.801  
+Iteration 1:   log likelihood = -5420.6427  
+Iteration 2:   log likelihood = -4250.8408  
+Iteration 3:   log likelihood = -2774.6384  
+Iteration 4:   log likelihood = -2481.9822  
+Iteration 5:   log likelihood = -2392.3737  
+Iteration 6:   log likelihood = -2391.6144  
+Iteration 7:   log likelihood = -2391.6137  
+Iteration 8:   log likelihood = -2391.6137  
+
+Multinomial logistic regression                       Number of obs =   14,719
+                                                      LR chi2(24)   = 20602.38
+                                                      Prob > chi2   =   0.0000
+Log likelihood = -2391.6137                           Pseudo R2     =   0.8116
+
+------------------------------------------------------------------------------
+      scelta | Coefficient  Std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+mobile       |
+       multi |  -.0228083   .1130659    -0.20   0.840    -.2444134    .1987968
+      emails |   .0818243   .0397257     2.06   0.039     .0039635    .1596852
+    catalogs |  -.2338297   .1406876    -1.66   0.097    -.5095723     .041913
+        reso |   1.617352   .3485602     4.64   0.000     .9341863    2.300517
+         qta |  -.3480927   .0294951   -11.80   0.000    -.4059021   -.2902833
+     recency |   .0019193   .0006839     2.81   0.005     .0005788    .0032598
+        Mtot |   .3772453   .0212419    17.76   0.000     .3356119    .4188787
+       PVtot |  -.2656379   .0184924   -14.36   0.000    -.3018823   -.2293936
+        Itot |   .1076196   .0282798     3.81   0.000     .0521922     .163047
+      agenti |   .0594993   .2450169     0.24   0.808     -.420725    .5397235
+         age |   .0064777   .0036721     1.76   0.078    -.0007194    .0136748
+      genere |   .1977098   .1207071     1.64   0.101    -.0388718    .4342915
+       _cons |  -.1699413   .4647322    -0.37   0.715      -1.0808    .7409171
+-------------+----------------------------------------------------------------
+internet     |
+       multi |   .5888573   .1756164     3.35   0.001     .2446555    .9330592
+      emails |    .428563   .0426801    10.04   0.000     .3449114    .5122145
+    catalogs |   -.111469   .2034165    -0.55   0.584    -.5101582    .2872201
+        reso |    1.51272   .4679251     3.23   0.001     .5956037    2.429836
+         qta |  -.3021529   .0448932    -6.73   0.000    -.3901419   -.2141639
+     recency |  -.0029803   .0009554    -3.12   0.002    -.0048528   -.0011077
+        Mtot |   .1852061   .0303687     6.10   0.000     .1256845    .2447277
+       PVtot |  -.2806636   .0315347    -8.90   0.000    -.3424705   -.2188567
+        Itot |   .3471641   .0335346    10.35   0.000     .2814375    .4128907
+      agenti |   .9616231   .3587326     2.68   0.007     .2585202    1.664726
+         age |   .0095224   .0054671     1.74   0.082    -.0011929    .0202378
+      genere |   .2443035   .1623986     1.50   0.132     -.073992     .562599
+       _cons |  -3.132908    .699192    -4.48   0.000      -4.5033   -1.762517
+-------------+----------------------------------------------------------------
+ptovendita   |  (base outcome)
+------------------------------------------------------------------------------
+Note: 16 observations completely determined. Standard errors questionable.
+
+. 
+. predict pr_mlogit3, outcome(3)
+(option pr assumed; predicted probability)
+
+. 
+. 
+. 
+. mprobit scelta multi emails catalogs reso qta recency Mtot PVtot Itot agenti age genere
+
+Iteration 0:   log likelihood = -2383.0804  
+Iteration 1:   log likelihood = -2361.1559  
+Iteration 2:   log likelihood = -2358.0791  
+Iteration 3:   log likelihood = -2358.0607  
+Iteration 4:   log likelihood = -2358.0607  
+
+Multinomial probit regression                          Number of obs =  14,719
+                                                       Wald chi2(24) = 5835.49
+Log likelihood = -2358.0607                            Prob > chi2   =  0.0000
+
+------------------------------------------------------------------------------
+      scelta | Coefficient  Std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+mobile       |
+       multi |  -.0249045   .0762116    -0.33   0.744    -.1742765    .1244675
+      emails |   .0487728   .0272715     1.79   0.074    -.0046783    .1022239
+    catalogs |  -.1484873   .0956964    -1.55   0.121    -.3360487    .0390741
+        reso |    1.06551   .2332775     4.57   0.000     .6082948    1.522726
+         qta |  -.2209947   .0201822   -10.95   0.000    -.2605511   -.1814383
+     recency |   .0013371   .0004608     2.90   0.004      .000434    .0022402
+        Mtot |    .272933   .0142444    19.16   0.000     .2450145    .3008515
+       PVtot |  -.1987083   .0126147   -15.75   0.000    -.2234327   -.1739838
+        Itot |    .069892     .01899     3.68   0.000     .0326722    .1071118
+      agenti |   .0152495   .1767996     0.09   0.931    -.3312715    .3617704
+         age |    .004211   .0025009     1.68   0.092    -.0006907    .0091128
+      genere |   .1046953   .0813129     1.29   0.198    -.0546751    .2640658
+       _cons |  -.1187335   .3218353    -0.37   0.712    -.7495191     .512052
+-------------+----------------------------------------------------------------
+internet     |
+       multi |   .2176838   .1122183     1.94   0.052    -.0022599    .4376276
+      emails |   .2837353   .0281654    10.07   0.000     .2285321    .3389384
+    catalogs |   -.013803   .1342555    -0.10   0.918    -.2769389    .2493328
+        reso |   .9393753   .3017737     3.11   0.002     .3479097    1.530841
+         qta |  -.1967947   .0304633    -6.46   0.000    -.2565018   -.1370877
+     recency |  -.0018857   .0006338    -2.98   0.003    -.0031279   -.0006435
+        Mtot |   .1319176   .0197324     6.69   0.000     .0932428    .1705924
+       PVtot |  -.1753006   .0202439    -8.66   0.000    -.2149779   -.1356233
+        Itot |   .2670725   .0223234    11.96   0.000     .2233194    .3108256
+      agenti |   .5930386    .245375     2.42   0.016     .1121125    1.073965
+         age |   .0047101   .0036122     1.30   0.192    -.0023697    .0117898
+      genere |   .1233711    .107738     1.15   0.252    -.0877914    .3345337
+       _cons |  -2.150214     .46458    -4.63   0.000    -3.060774   -1.239654
+-------------+----------------------------------------------------------------
+ptovendita   |  (base outcome)
+------------------------------------------------------------------------------
+
+. 
+. predict pr_mprobit3, outcome(3)
+(option pr assumed; predicted probabilities)
+
+. 
+. 
+. 
+. corr pr_mlogit3 pr_mprobit3
+(obs=14,719)
+
+             | pr_mlo~3 pr_mpr~3
+-------------+------------------
+  pr_mlogit3 |   1.0000
+ pr_mprobit3 |   0.9998   1.0000
+
+
+. 
+. scatter pr_mlogit3 pr_mprobit3
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. ************************
+
+. 
+. ** MULTINOMIAL PROBIT **
+
+. 
+. ************************
+
+. 
+. 
+. 
+. *Eseguiamo il multinomial probit con baseline "ptovendita", modalità più frequente:
+
+. 
+. 
+. 
+. mprobit scelta multi emails catalogs reso qta recency Mtot PVtot Itot agenti age genere, base(3)
+
+Iteration 0:   log likelihood = -2383.0804  
+Iteration 1:   log likelihood = -2361.1559  
+Iteration 2:   log likelihood = -2358.0791  
+Iteration 3:   log likelihood = -2358.0607  
+Iteration 4:   log likelihood = -2358.0607  
+
+Multinomial probit regression                          Number of obs =  14,719
+                                                       Wald chi2(24) = 5835.49
+Log likelihood = -2358.0607                            Prob > chi2   =  0.0000
+
+------------------------------------------------------------------------------
+      scelta | Coefficient  Std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+mobile       |
+       multi |  -.0249045   .0762116    -0.33   0.744    -.1742765    .1244675
+      emails |   .0487728   .0272715     1.79   0.074    -.0046783    .1022239
+    catalogs |  -.1484873   .0956964    -1.55   0.121    -.3360487    .0390741
+        reso |    1.06551   .2332775     4.57   0.000     .6082948    1.522726
+         qta |  -.2209947   .0201822   -10.95   0.000    -.2605511   -.1814383
+     recency |   .0013371   .0004608     2.90   0.004      .000434    .0022402
+        Mtot |    .272933   .0142444    19.16   0.000     .2450145    .3008515
+       PVtot |  -.1987083   .0126147   -15.75   0.000    -.2234327   -.1739838
+        Itot |    .069892     .01899     3.68   0.000     .0326722    .1071118
+      agenti |   .0152495   .1767996     0.09   0.931    -.3312715    .3617704
+         age |    .004211   .0025009     1.68   0.092    -.0006907    .0091128
+      genere |   .1046953   .0813129     1.29   0.198    -.0546751    .2640658
+       _cons |  -.1187335   .3218353    -0.37   0.712    -.7495191     .512052
+-------------+----------------------------------------------------------------
+internet     |
+       multi |   .2176838   .1122183     1.94   0.052    -.0022599    .4376276
+      emails |   .2837353   .0281654    10.07   0.000     .2285321    .3389384
+    catalogs |   -.013803   .1342555    -0.10   0.918    -.2769389    .2493328
+        reso |   .9393753   .3017737     3.11   0.002     .3479097    1.530841
+         qta |  -.1967947   .0304633    -6.46   0.000    -.2565018   -.1370877
+     recency |  -.0018857   .0006338    -2.98   0.003    -.0031279   -.0006435
+        Mtot |   .1319176   .0197324     6.69   0.000     .0932428    .1705924
+       PVtot |  -.1753006   .0202439    -8.66   0.000    -.2149779   -.1356233
+        Itot |   .2670725   .0223234    11.96   0.000     .2233194    .3108256
+      agenti |   .5930386    .245375     2.42   0.016     .1121125    1.073965
+         age |   .0047101   .0036122     1.30   0.192    -.0023697    .0117898
+      genere |   .1233711    .107738     1.15   0.252    -.0877914    .3345337
+       _cons |  -2.150214     .46458    -4.63   0.000    -3.060774   -1.239654
+-------------+----------------------------------------------------------------
+ptovendita   |  (base outcome)
+------------------------------------------------------------------------------
+
+. 
+. 
+. 
+. *Anche qui come baseline abbiamo scelto il canale punto vendita, in quanto è la modalità più frequente. 
+
+. 
+. 
+. 
+. *scelta "mobile" vs "ptovendita" --> variabili non significative al 5%: multi, emails, catalogs, agenti, age, genere
+
+. 
+. *scelta "internet" vs "ptovendita" --> variabili non significative al 5%: catalogs, age, genere
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. ***********************
+
+. 
+. ** EFFETTI MARGINALI **
+
+. 
+. ***********************
+
+. 
+. 
+. 
+. 
+. 
+. *Tabella di "internet" per la variabile emails:
+
+. 
+. 
+. 
+. margins, at(emails=(0.072 (2) 8.019))predict(outcome(2))
+
+Predictive margins                                      Number of obs = 14,719
+Model VCE: OIM
+
+Expression: Pr(scelta==internet), predict(outcome(2))
+1._at: emails =  .072
+2._at: emails = 2.072
+3._at: emails = 4.072
+4._at: emails = 6.072
+
+------------------------------------------------------------------------------
+             |            Delta-method
+             |     Margin   std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+         _at |
+          1  |   .0386183   .0019208    20.11   0.000     .0348536    .0423831
+          2  |   .0540048   .0015362    35.15   0.000     .0509939    .0570158
+          3  |   .0759267     .00333    22.80   0.000        .0694    .0824534
+          4  |   .1081661   .0082267    13.15   0.000      .092042    .1242901
+------------------------------------------------------------------------------
+
+. 
+. marginsplot
+
+Variables that uniquely identify margins: emails
+
+. 
+. 
+. 
+. *All'aumentare del numero medio di emails aumenta la probabilità di scegliere internet, a conferma di quanto osservato nel multinomial
+>  probit.
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Tabella di "punto vendita" per la variabile emails:
+
+. 
+. 
+. 
+. margins, at(emails=(0.072 (2) 8.019))predict(outcome(3))
+
+Predictive margins                                      Number of obs = 14,719
+Model VCE: OIM
+
+Expression: Pr(scelta==ptovendita), predict(outcome(3))
+1._at: emails =  .072
+2._at: emails = 2.072
+3._at: emails = 4.072
+4._at: emails = 6.072
+
+------------------------------------------------------------------------------
+             |            Delta-method
+             |     Margin   std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+         _at |
+          1  |   .5487239   .0017928   306.07   0.000     .5452101    .5522377
+          2  |   .5409504    .001999   270.61   0.000     .5370324    .5448684
+          3  |   .5312657   .0041348   128.49   0.000     .5231615    .5393698
+          4  |   .5176896   .0074126    69.84   0.000     .5031611     .532218
+------------------------------------------------------------------------------
+
+. 
+. marginsplot
+
+Variables that uniquely identify margins: emails
+
+. 
+. 
+. 
+. *All'aumentare del numero medio di emails non viene influenzata la probabilità di acquistare nei punti vendita.
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Tabella di "internet" per la variabile agenti:
+
+. 
+. 
+. 
+. margins, at(agenti=(0 (1) 1))predict(outcome(2))
+
+Predictive margins                                      Number of obs = 14,719
+Model VCE: OIM
+
+Expression: Pr(scelta==internet), predict(outcome(2))
+1._at: agenti = 0
+2._at: agenti = 1
+
+------------------------------------------------------------------------------
+             |            Delta-method
+             |     Margin   std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+         _at |
+          1  |   .0439957   .0043784    10.05   0.000     .0354142    .0525773
+          2  |   .0579443    .001158    50.04   0.000     .0556746    .0602139
+------------------------------------------------------------------------------
+
+. 
+. marginsplot
+
+Variables that uniquely identify margins: agenti
+
+. 
+. 
+. 
+. *Se il cliente viene reclutato da un agente di vendita, la probabilità di acquistare tramite internet è di circa il 6%. Mentre, se il 
+> cliente non viene reclutato da un agente di vendita, la probabilità di acquistare tramite internet è di circa il 4%.
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. *Tabella di "punto vendita" per la variabile agenti:
+
+. 
+. 
+. 
+. margins, at(agenti=(0 (1) 1))predict(outcome(3))
+
+Predictive margins                                      Number of obs = 14,719
+Model VCE: OIM
+
+Expression: Pr(scelta==ptovendita), predict(outcome(3))
+1._at: agenti = 0
+2._at: agenti = 1
+
+------------------------------------------------------------------------------
+             |            Delta-method
+             |     Margin   std. err.      z    P>|z|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+         _at |
+          1  |   .5466383   .0065006    84.09   0.000     .5338974    .5593793
+          2  |   .5429892   .0013481   402.77   0.000     .5403469    .5456315
+------------------------------------------------------------------------------
+
+. 
+. marginsplot
+
+Variables that uniquely identify margins: agenti
+
+. 
+. 
+. 
+. *Se il cliente viene reclutato da un agente di vendita, la probabilità di acquistare nei punti vendita è di circa il 54%. Mentre, se i
+> l cliente non viene reclutato da un agente di vendita, la probabilità di acquistare nei punti vendita è di circa il 55%. Sostanzialmen
+> te, la differenza non è rilevante.
+
+. 
+. 
+. 
+. 
+. log close
+      name:  <unnamed>
+       log:  C:\Users\beatr\Desktop\PROGETTO\BooksByMails.log
+  log type:  text
+ closed on:  21 Mar 2022, 11:55:11
+----------------------------------------------------------------------------------------------------------------------------------------
